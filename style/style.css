@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Azeret Mono", monospace;*/
+/*hero styles*/
+
+.hero-btn{
+width: 250px;
+height: 46px;
+padding: 14px 16px 14px 16px;
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0%;
+text-align :center;
+margin-top:60px ;
+border-radius:10px; 
+background: rgb(69, 175, 20);
+} 
+.hero {
+background-image: url("../Hero-bg.png");
+width: 1200PX;
+height: 652px;
+margin-top:131px;
+
+
+}
+.hero-content{
+width: 998px; 
+height: 582px;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.hero-pic{
+width: 240px;
+height: 240px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 4px;
+justify-content: center;
+align-items:center;
+padding: 0px;
+}
+.hero-subcontent{
+    width:998px;
+    height: 310px;
+    margin:32px 0px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.hero-title{
+width: 998px;
+height: 136px;
+font-family: Azeret Mono;
+font-size: 25px;
+font-weight: 600;
+text-align: center;
+padding: 0px;
+}
+.hero-description {
+width: 852px;
+height: 52px;
+font-family: Azeret Mono;
+font-size: 16px;
+line-height: 26px;
+font-weight: 400;
+text-align: center;
+opacity: 0.7;
+}
+/*main styles*/
+.main{
+    max-width: 1100px;
+   
+}
+    
+.grand{
+max-width: 1100px;
+max-height: 1350px;
+margin-top: 64px ;
+margin-left: 64px;
+background-color:rgba(13, 19, 33, 0.02);
+
+}
+
+.grand-title{
+    text-align: center;
+    font-family: Azeret Mono;
+    font-weight: 800;
+    font-size: 28px;
+    padding :10PX;
+
+}
+.grand-description{
+    width:750px ;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Azeret Mono;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+
+.box-1{
+    width: 800px;
+    height: 220px;
+    display: flex;
+    justify-content:space-between ;
+    margin-left:48px;
+    padding: 48px 48px 48px 48px;
+    background-color: white;
+   
+    
+}
+.box-1-container{
+width:477px;
+text-align: left;
+
+
+}
+ 
+.box-1-title{
+width: 390px;
+height:60px;
+font-family: Azeret Mono;
+font-weight: 700;
+font-size: 22px;
+letter-spacing: 0%;
+text-align: left;
+ 
+
+}
+.box-1-description{
+width: 468px;
+height: 52px;
+font-family: Azeret Mono;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+
+
+}
+.box-1-btn-primary{
+width: 150px;
+height: 48px;
+margin-top: 20px;
+align-items: left;
+background-color: rgb(232, 235, 243)
+}
+.box-1-picture{
+   width:272px;
+   height:220px;
+   justify-content: center;
+   align-items: center;
+   
+     }
+     .box-2{
+        width: 800px;
+       height:240px;
+        display: flex;
+        background-color: white;
+        margin: 48px ;
+       padding: 48px  48px  48px  48px;
+     }
+
+     .box-2-picture{
+        margin-right:32px;
+     }
+         
+    .box-2-container{
+        text-align: left;
+    }
+.box-2-title{
+width: 390px;
+height:60px;
+font-family: Azeret Mono;
+font-weight: 700;
+font-size: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+    }
+     .box-2-description{
+width: 468px;
+height: 52px;
+font-family: Azeret Mono;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+     }
+     .box-2-btn-primary{
+width: 150px;
+height: 48px;
+margin-top: 20px;
+align-items: left;
+background-color: rgb(232, 235, 243)
+     }
+
+    .box-3{
+        width: 800px;
+        height:220px;
+         display: flex;
+         justify-content:space-between;
+         background-color: white;
+         margin-left: 48px;
+         margin-bottom: 48px;
+         padding: 48px  48px  48px  48px;
+         
+         
+    }
+    .box-3-container{
+    width:477px;
+    text-align: left;
+
+    }
+      
+    .box-3-title{
+    width: 390px;
+    font-family: Azeret Mono;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+     
+    
+    }
+    .box-3-description{
+    width: 468px;
+    font-family: Azeret Mono;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0%;
+text-align: left;
+  
+    
+    
+    }
+    .box-3-btn-primary{
+    width: 150px;
+    height: 48px;
+   align-items: left;
+    background-color: rgb(232, 235, 243)
+    }
+    .box-3-picture{
+       width:272px;
+       height:220px;
+       justify-content: center;
+       align-items: center;
+       
+         }   
+
+     
+     
+
+/*targets section styles*/
+.targets{
+    width: 1100px;
+margin: 48px auto 48px auto;
+
+}
+.section-title{
+    text-align: center;
+    width: ;
+    heigt:
+}
+.section-description{
+    text-align: center;
+}
+
+
+.targets-container{
+display: flex;
+gap: 30px;
+margin-top: 40px;
+}
+.target-description{
+    justify-content: center;
+    font-family: Azeret Mono;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0%;
+    padding:40px;
+}
+.target1{
+    background-color: bisque;
+    width: 300px;
+    height: 250px;
+    padding: 40px;
+}
+.target2{
+    background-color:beige ;
+    width: 300px;
+    height: 250px;
+    padding: 40px;
+}
+.target3{
+    background-color: burlywood;
+    width: 300px;
+    height: 250px;
+    padding: 40px;
+}
+/*inspt section styles*/
+
+.inspt{
+    width:852px;
+    height: 600px;
+    Padding:32px 97px 80px 64px;
+
+} 
+.inspt-content{
+    max-width: 800px;
+    height: 110px;
+}  
+.inspt-title{
+justify-content: center; 
+align-items: center;
+text-align: center; 
+gap:24px; 
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 25px;
+font-weight: 700;
+line-height: 37px;
+letter-spacing: 0%;
+
+}
+.inspt-description{
+justify-content: center;
+align-items: center;
+text-align: center; 
+
+}
+
+.inspt-ideal{
+    justify-content: center;
+   Width: 852px;
+   height: 400px;
+   margin-top: 48px;
+   justify-content: center;
+  align-items: center;
+ padding: 32px 32px 32px 32px;
+}
+.banner{
+    background-image:url(../handshake.jpg);
+    background-position: center;
+    width: 1100px;
+    height: 244px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin:64px auto 64px auto;
+    
+
+}
+.banner-title{
+    padding-top: 80px;
+    font-size: 24px;
+    font-family: Azeret Mono;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+
+}
+.banner-description{
+    padding-top :10 px;
+    font-size:18px;
+    font-family: Azeret Mono;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom:20px;
+}
